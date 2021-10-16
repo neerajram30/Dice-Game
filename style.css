@@ -88,13 +88,13 @@ body{
 }
 @keyframes shake {
     0%{
-        transform: rotate(8deg);
+        transform: rotate3d(0);
     }
     50%{
-        transform: rotate(-8deg);
+        transform: rotate3d(1, 1, 1, 45deg);
     }
     100%{
-        transform: rotate(8deg);
+        transform: rotate3d(2, -1, -1, -0.2turn);
     }
     
 }
